@@ -4,6 +4,13 @@ A Machine Learning project that forecasts the AC power output of a solar power p
 
 ---
 
+## Dataset
+
+The open-source data used in this project is sourced from Kaggle:
+**[Solar Power Generation Data on Kaggle]([https://www.kaggle.com/datasets/anikannal/solar-power-generation-data)]**
+
+---
+
 ## Project Architecture & Core Insights
 
 This project focuses on a crucial upgrade: moving from a basic model to a smart time-series approach. In the real world, this shift is essential for an energy trading desk to avoid expensive financial penalties caused by inaccurate power forecasts.
