@@ -7,7 +7,7 @@ A Machine Learning project that forecasts the AC power output of a solar power p
 ## Dataset
 
 The open-source data used in this project is sourced from Kaggle:
-**[Solar Power Generation Data on Kaggle]([https://www.kaggle.com/datasets/anikannal/solar-power-generation-data])**
+**[Solar Power Generation Data on Kaggle](https://www.kaggle.com/datasets/anikannal/solar-power-generation-data)**
 
 ---
 
