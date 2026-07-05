@@ -17,3 +17,11 @@ This project focuses on a crucial upgrade: moving from a basic model to a smart 
 
 * **Baseline Performance:** Random Forest outclassed Linear Regression by capturing the highly non-linear time effects.
 * **Volatility Optimization:** Transitioning to the Autoregressive setup reduced the Mean Absolute Error (MAE) by **3.65 kW**, making the model significantly more reliable for sudden drops in solar generation.
+
+## Future Outlook & Model Improvement Strategies
+
+To further push the performance of our forecasting pipeline, the following iterative steps should be explored next:
+
+* **Cyclic Time Features:** Convert `HOUR` and `MINUTE` into Sine and Cosine components so the model mathematically understands that hour 23 and hour 0 are seamlessly connected.
+* **Rolling Window Statistics:** Introduce rolling features (e.g., rolling means or standard deviations) to give the model a smoother representation of recent production trends rather than relying solely on single lag snapshots.
+* **Advanced Algorithms:** Transition from Random Forest to Gradient Boosting architectures like **XGBoost** or **LightGBM**, which typically perform better at minimising MAE in volatile time-series datasets.
